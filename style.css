@@ -185,23 +185,26 @@ header p{
 .site-footer a {
   margin-left: 10px;
   font-size: 20px;
-  color: inherit;
+  color: black;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  padding-left: 40px;
+  background-image: url("img/icon-mail.svg");
 }
 
 .footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  padding-left: 35px;
+  background-image: url("img/icon-phone.svg");
 }
 
-
+.footer-map {
+  padding-left: 35px;
+  background-image: url("img/icon-map.svg");
+}
 
 .info{
   height: auto;

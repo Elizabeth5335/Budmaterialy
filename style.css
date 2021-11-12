@@ -205,6 +205,7 @@ header p{
 
 * {
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 h1 {
@@ -215,7 +216,7 @@ h1 {
 
 .row {
     margin: 8px -16px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* Add padding BETWEEN each column */

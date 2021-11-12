@@ -90,6 +90,13 @@ h2 {
   margin-left: auto;
 }
 
+/* Clear floats after rows */ 
+.split:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -205,7 +212,6 @@ header p{
 
 * {
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 h1 {
@@ -216,7 +222,7 @@ h1 {
 
 .row {
     margin: 8px -16px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Add padding BETWEEN each column */
@@ -229,6 +235,7 @@ h1 {
 .column {
     float: left;
     width: 25%;
+    overflow-x: hidden;
 }
 
 /* Clear floats after rows */ 

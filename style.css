@@ -83,13 +83,11 @@ h2 {
   display: inline-block;
   margin-left: 0em;
   margin-right: auto;
-  padding-right: 10px;
 }
 .right-block{
   display: inline-block;
   margin-right: 0em;
   margin-left: auto;
-  padding-left: 10px;
 }
 
 .container {
@@ -267,6 +265,7 @@ h1 {
     cursor: pointer;
     font-size: 20px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .btn:hover {

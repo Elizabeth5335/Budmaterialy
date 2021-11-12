@@ -84,11 +84,13 @@ h2 {
   display: inline-block;
   margin-left: 0em;
   margin-right: auto;
+  padding: 10px;
 }
 .right-block{
   display: inline-block;
   margin-right: 0em;
   margin-left: auto;
+  padding: 10px;
 }
 
 .split:after {
